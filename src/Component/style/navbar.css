@@ -1,0 +1,18 @@
+.link{
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 40px;
+    align-items:center;
+    background-color: rgb(1, 80, 123);
+    margin: 20px;
+    border-radius: 50px;
+} 
+a{
+    color: white;
+    margin-left: 80px;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: x-large;
+}
