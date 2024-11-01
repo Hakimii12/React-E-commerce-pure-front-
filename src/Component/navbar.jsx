@@ -2,11 +2,12 @@ import "./style/navbar.css"
 import React from 'react'
 import { Link } from 'react-router-dom'
 import {ShoppingCart} from 'phosphor-react'
+import shopicon from "../assets/shop_icon/shop_icon.jpg"
 function Navbar() {
   return (
     <div className="link">
-      <Link to="/">Shop</Link>
-      <Link to="/cart"><ShoppingCart size={25}/></Link>
+      <Link to="/"><img src={shopicon} alt="" /></Link>
+      <Link to="/cart"><ShoppingCart size={30} /></Link>
     </div>
   )
 }
