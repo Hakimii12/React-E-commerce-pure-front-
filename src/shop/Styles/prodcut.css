@@ -1,5 +1,5 @@
 body {
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
 }
 
 section {
@@ -64,4 +64,25 @@ input{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-shadow:  0 4px 8px rgba(30, 28, 28, 0.9);
     border-radius: 10px;
+}
+@media (max-width: 700px) {
+    section {
+        width: 95%;
+        margin-left: 2%;
+    }
+    .filter {
+        width: 95%;
+        margin-left:2%;
+    }
+    input{
+        width:180px;
+        padding: 5px 0;
+
+     }
+     .imageBox {
+        width: 250px;
+    }
+    .image {
+        width: 100%
+    }
 }
